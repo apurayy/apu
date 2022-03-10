@@ -1,0 +1,571 @@
+/* ===============large devices part start ===============*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+	#banner_part .banner_item {
+		margin-top: 50px;
+		margin-bottom: 20px;
+	}
+	#Resume .resume_item .item h3 {
+		font-size: 21px;
+	}
+	#testimonial_part .item_right::after {
+		width: 120px;
+		height: 120px;
+		top: -147px
+	}
+	#testimonial_part .item_right {
+		margin-top: 130px;
+	}
+	#testimonial_part .item_right h3 {
+		font-size: 22px;
+	}
+	#testimonial_part .item_right p {
+		font-size: 14px;
+	}
+	#blog_part .blog_item h3 {
+		font-size: 22px;
+	}
+
+}
+
+/* ===============large devices part end ===============*/
+
+
+/*medium devices part start=========================*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+	.common_h2 {
+		font-size: 40px;
+	}
+	.common_h4 {
+		font-size: 14px;
+	}
+	/*====== common_css end========== */
+
+	/*====== menu part start =====*/
+	#main_menu .res_btn{
+		color: #FF014F;
+		font-size: 20px;
+	}
+	#main_menu .navbar-toggler:focus {
+		box-shadow: none;
+	}
+	#main_menu .navbar-brand {
+		font-size: 20px;
+	}
+
+	/*====== menu part end =====*/
+
+	/*====== banner part start =====*/
+	#banner_part {
+		padding-top: 30px;
+	}
+	.border_bottom {
+		padding-bottom: 50px;
+	}
+	#banner_part .banner_item {
+		margin: 0;
+		text-align: center;
+	}
+	#banner_part .banner_item h4 {
+		font-size: 13px;
+	}
+	#banner_part .banner_item h1 {
+		font-size: 30px;
+	}
+	#banner_part .banner_item h3 {
+		font-size: 24px;
+	}
+	#banner_part .banner_item p {
+		font-size: 14px;
+	}
+	#banner_part .link_item {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	/*====== banner part end =====*/
+
+
+	/*====== portfolio part start =====*/
+	
+	/*====== portfolio part end =====*/
+
+
+	/*====== skill part start =====*/
+	#skill_part {
+		padding-top: 50px;
+	}
+	.develop_part {
+		padding-top: 0;
+	}
+	/*====== skill part end =====*/
+
+	/*====== resume part start =====*/
+	#Resume {
+		padding-top: 50px;
+	}
+	.resum_2 {
+		padding-top: 0;
+	}
+	#Resume .resume_item .item h3 {
+		font-size: 20px;
+	}
+	#Resume .resume_item .item h4 {
+		font-size: 17px;
+	}
+	#Resume .resume_item .item .date {
+		font-size: 13px;
+	}
+	/*====== resume part end =====*/
+
+	/*====== testimonial_part start =====*/
+	#testimonial_part {
+		padding-top: 50px;
+	}
+	
+	#testimonial_part .item {
+		display: flex;
+		justify-content: space-between;
+	}
+	#testimonial_part .item .img {
+		width: 30%;
+	}
+	#testimonial_part .testi_details {
+		width: 65%;
+	}
+	#testimonial_part .item h4 {
+		padding: 0;
+	}
+	#testimonial_part .item h3 {
+		padding-top: 15px;
+	}
+	#testimonial_part .item_right h3 {
+		font-size: 22px;
+	}
+	#testimonial_part .item_right p {
+		font-size: 14px;
+	}
+	#testimonial_part .item_right .item_rg_title {
+		padding-bottom: 0;
+	}
+	#testimonial_part .item_right .item_rg_title .icon_box {
+		top: 0;
+		right: 0;
+		left: auto;
+	}
+	#testimonial_part .item_right::after {
+		display: none;
+	}
+	#testimonial_part .item_right {
+		margin-top: 15px;
+	}
+	.left_arrow {
+		width: 45px;
+		height: 45px;
+		line-height: 45px;
+		font-size: 16px;
+		top: 0px;
+		right: 60px;
+	}
+	.right_arrow {
+		width: 45px;
+		height: 45px;
+		line-height: 45px;
+		font-size: 16px;
+		top: 0;
+	}
+	/*====== testimonial_part end =====*/
+
+
+	/*====== blog_part start =====*/
+	#blog_part .blog_item {
+		margin-bottom: 30px;
+	}
+	#blog_part .blog_item h3 {
+		font-size: 18px;
+	}
+	/*====== blog_part end =====*/
+
+
+	/*====== contact_part start =====*/
+	#contact_part {
+		padding: 50px 0;
+	}
+	#contact_part h2{
+		font-size: 31px;
+	}
+	#contact_part .form_item .form-control {
+		margin-bottom: 20px;
+	}
+	#contact_part .form_item textarea {
+		margin-top: 0;
+	}
+	#contact_part .form_item .contact_btn {
+		font-size: 14px;
+	}
+	/*====== contact_part end =====*/
+
+	/*====== footer =====*/
+	#footer p {
+		font-size: 14px;
+	}
+	/*====== footer end =====*/
+}
+/*medium devices part start=========================*/
+
+/*small devices part start=========================*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+	.common_h2 {
+		font-size: 40px;
+	}
+	.common_h4 {
+		font-size: 14px;
+	}
+	/*====== common_css end========== */
+
+	/*====== menu part start =====*/
+	#main_menu .res_btn{
+		color: #FF014F;
+		font-size: 20px;
+	}
+	#main_menu .navbar-toggler:focus {
+		box-shadow: none;
+	}
+	#main_menu .navbar-brand {
+		font-size: 20px;
+	}
+
+	/*====== menu part end =====*/
+
+	/*====== banner part start =====*/
+	#banner_part {
+		padding-top: 30px;
+	}
+	.border_bottom {
+		padding-bottom: 50px;
+	}
+	#banner_part .banner_item {
+		margin: 0;
+		text-align: center;
+	}
+	#banner_part .banner_item h4 {
+		font-size: 13px;
+	}
+	#banner_part .banner_item h1 {
+		font-size: 30px;
+	}
+	#banner_part .banner_item h3 {
+		font-size: 24px;
+	}
+	#banner_part .banner_item p {
+		font-size: 14px;
+	}
+	#banner_part .link_item {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	/*====== banner part end =====*/
+
+
+	/*====== portfolio part start =====*/
+	#portfolio_part {
+		padding-top: 50px;
+	}
+	#portfolio_part .port_btn button {
+		font-size: 14px;
+		width: 45%;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+	#portfolio_part .port .item {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.mar {
+		margin-top: 0;
+	}
+	/*====== portfolio part end =====*/
+
+
+	/*====== skill part start =====*/
+	#skill_part {
+		padding-top: 50px;
+	}
+	.develop_part {
+		padding-top: 30px;
+	}
+	/*====== skill part end =====*/
+
+	/*====== resume part start =====*/
+	#Resume {
+		padding-top: 50px;
+	}
+	.resum_2 {
+		padding-top: 30px;
+	}
+	/*====== resume part end =====*/
+
+	/*====== testimonial_part start =====*/
+	#testimonial_part {
+		padding-top: 50px;
+	}
+	
+	#testimonial_part .item {
+		display: flex;
+		justify-content: space-between;
+	}
+	#testimonial_part .item .img {
+		width: 30%;
+	}
+	#testimonial_part .testi_details {
+		width: 65%;
+	}
+	#testimonial_part .item h4 {
+		padding: 0;
+	}
+	#testimonial_part .item h3 {
+		padding-top: 15px;
+	}
+	#testimonial_part .item_right h3 {
+		font-size: 22px;
+	}
+	#testimonial_part .item_right p {
+		font-size: 14px;
+	}
+	#testimonial_part .item_right .item_rg_title {
+		padding-bottom: 0;
+	}
+	#testimonial_part .item_right .item_rg_title .icon_box {
+		top: 0;
+		right: 0;
+		left: auto;
+	}
+	#testimonial_part .item_right::after {
+		display: none;
+	}
+	#testimonial_part .item_right {
+		margin-top: 15px;
+	}
+	.left_arrow {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 16px;
+		top: 0px;
+		right: 40px;
+	}
+	.right_arrow {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 16px;
+		top: 0;
+	}
+	/*====== testimonial_part end =====*/
+
+
+	/*====== blog_part start =====*/
+	#blog_part .blog_item {
+		margin-bottom: 30px;
+	}
+	#blog_part .blog_item h3 {
+		font-size: 18px;
+	}
+	/*====== blog_part end =====*/
+
+
+	/*====== contact_part start =====*/
+	#contact_part {
+		padding: 50px 0;
+	}
+	#contact_part h2{
+		font-size: 31px;
+	}
+	#contact_part .form_item .form-control {
+		margin-bottom: 20px;
+	}
+	#contact_part .form_item textarea {
+		margin-top: 0;
+	}
+	#contact_part .form_item .contact_btn {
+		font-size: 14px;
+	}
+	/*====== contact_part end =====*/
+
+	/*====== footer =====*/
+	#footer p {
+		font-size: 11px;
+	}
+	/*====== footer end =====*/
+}
+/*=======================small diveces end=================*/
+
+
+/*=====================extra small part start=======================*/
+@media (max-width: 575.98px) {
+	.common_h2 {
+		font-size: 40px;
+	}
+	.common_h4 {
+		font-size: 14px;
+	}
+	/*====== common_css end========== */
+
+	/*====== menu part start =====*/
+	#main_menu .res_btn{
+		color: #FF014F;
+		font-size: 20px;
+	}
+	#main_menu .navbar-toggler:focus {
+		box-shadow: none;
+	}
+	#main_menu .navbar-brand {
+		font-size: 20px;
+	}
+
+	/*====== menu part end =====*/
+
+	/*====== banner part start =====*/
+	#banner_part {
+		padding-top: 30px;
+	}
+	.border_bottom {
+		padding-bottom: 50px;
+	}
+	#banner_part .banner_item {
+		margin: 0;
+	}
+	#banner_part .banner_item h4 {
+		font-size: 13px;
+	}
+	#banner_part .banner_item h1 {
+		font-size: 30px;
+	}
+	#banner_part .banner_item h3 {
+		font-size: 24px;
+	}
+	#banner_part .banner_item p {
+		font-size: 14px;
+	}
+	#banner_part .link_item {
+		text-align: center;
+		padding-bottom: 40px;
+	}
+	/*====== banner part end =====*/
+
+
+	/*====== portfolio part start =====*/
+	#portfolio_part {
+		padding-top: 50px;
+	}
+	#portfolio_part .port_btn button {
+		font-size: 14px;
+		width: 45%;
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+	#portfolio_part .port .item {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	.mar {
+		margin-top: 0;
+	}
+	/*====== portfolio part end =====*/
+
+
+	/*====== skill part start =====*/
+	#skill_part {
+		padding-top: 50px;
+	}
+	.develop_part {
+		padding-top: 30px;
+	}
+	/*====== skill part end =====*/
+
+	/*====== resume part start =====*/
+	#Resume {
+		padding-top: 50px;
+	}
+	.resum_2 {
+		padding-top: 30px;
+	}
+	#Resume .resume_item .item h3 {
+		font-size: 19px;
+	}
+	#Resume .resume_item .item h4 {
+		font-size: 16px;
+	}
+	/*====== resume part end =====*/
+
+	/*====== testimonial_part start =====*/
+	#testimonial_part {
+		padding-top: 50px;
+	}
+	#testimonial_part .item_right .item_rg_title {
+		padding-bottom: 50px;
+	}
+	#testimonial_part .item_right::after {
+		display: none;
+	}
+	#testimonial_part .item_right {
+		margin-top: 15px;
+	}
+	#testimonial_part .item_right .item_rg_title .icon_box {
+		top: 73%;
+		left: 0;
+		right: auto;
+	}
+	.left_arrow {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 16px;
+		top: 0px;
+		right: 40px;
+	}
+	.right_arrow {
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		font-size: 16px;
+		top: 0;
+	}
+	/*====== testimonial_part end =====*/
+
+
+	/*====== blog_part start =====*/
+	#blog_part .blog_item {
+		margin-bottom: 30px;
+	}
+	#blog_part .blog_item h3 {
+		font-size: 18px;
+	}
+	/*====== blog_part end =====*/
+
+
+	/*====== contact_part start =====*/
+	#contact_part {
+		padding: 50px 0;
+	}
+	#contact_part h2{
+		font-size: 31px;
+	}
+	#contact_part .form_item .form-control {
+		margin-bottom: 20px;
+	}
+	#contact_part .form_item textarea {
+		margin-top: 0;
+	}
+	#contact_part .form_item .contact_btn {
+		font-size: 14px;
+	}
+	/*====== contact_part end =====*/
+
+	/*====== footer =====*/
+	#footer p {
+		font-size: 11px;
+	}
+	/*====== footer end =====*/
+
+
+}
+/*====================extra small part start=============*/
