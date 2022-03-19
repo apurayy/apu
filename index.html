@@ -633,24 +633,27 @@
 				</div>
 				<div class="wow bounceInRight col-lg-8 col-md-6" data-wow-duration="2s" data-wow-delay="0.9s">
 					<div class="form_item">
-						<form class="row">
+						<form action="https://formspree.io/f/mlezloyy" method="POST" id="" class="row">
 							<div class="col-lg-6">
-							  <input type="text" placeholder="Name" class="form-control">
+							  <input type="text" id="Name" name="Name" placeholder="Name" class="form-control">
 							</div>
 
 							<div class="col-lg-6">
-							  <input type="email" placeholder="Email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+							  <input type="email" id="email" name="email" placeholder="Email" class="form-control">
 							</div>
 
 							<div class="col-lg-12">
-							  <textarea placeholder="Massege"></textarea>
+							  <textarea name="massage" id="massage" placeholder="Massege"></textarea>
 							</div>
 
 							<div class="col-lg-12 send">
 								<input type="submit" value="Send Message" class="contact_btn">
 							</div>
-						  </form>
+						</form>
+						<div id="status"></div>
 					</div>
+					
+
 				</div>
 			</div>
 		</div>
